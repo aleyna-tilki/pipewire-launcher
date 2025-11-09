@@ -2,6 +2,6 @@ build:
 	: nothing
 
 install:
-	mkdir -p $(DESTDIR)/etc/X11/Xsession.d/
-	install pipewire-launcher $(DESTDIR)/etc/X11/Xsession.d/98-pipewire
+	install -Dm755 pipewire-launcher $(DESTDIR)/usr/libexec/pipewire-launcher
+	install -Dm644 pipewire.deskto/ $(DESTDIR)/exc/xdg/autostart/pipewire.desktop
 

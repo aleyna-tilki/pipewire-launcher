@@ -9,5 +9,5 @@ Homepage: https://example.org
 Package: pipewire-launcher
 Architecture: all
 Depends: ${misc:Depends}, libc6, pipewire, wireplumber
-Description: Edit me
- Edit me. I am description
+Description: Pipewire launcher for sysvinit/openrc
+ Simple pipewire launcher for debian
