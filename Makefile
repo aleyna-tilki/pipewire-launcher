@@ -3,5 +3,5 @@ build:
 
 install:
 	install -Dm755 pipewire-launcher $(DESTDIR)/usr/libexec/pipewire-launcher
-	install -Dm644 pipewire.deskto/ $(DESTDIR)/exc/xdg/autostart/pipewire.desktop
+	install -Dm644 pipewire.desktop $(DESTDIR)/exc/xdg/autostart/pipewire.desktop
 
